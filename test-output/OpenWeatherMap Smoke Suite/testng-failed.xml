@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [OpenWeatherMap Smoke Suite]">
+  <test thread-count="5" verbose="2" name="OpenWeatherMapBDDTests(failed)">
+    <classes>
+      <class name="com.qa.openWeatherMap.RunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.qa.openWeatherMap.RunnerTest -->
+    </classes>
+  </test> <!-- OpenWeatherMapBDDTests(failed) -->
+</suite> <!-- Failed suite [OpenWeatherMap Smoke Suite] -->
